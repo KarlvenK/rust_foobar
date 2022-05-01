@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 tokio = "0.3.7"
+lru = "0.7.5"
