@@ -211,7 +211,7 @@ mod use_cell {
         }
         impl Messenger for MsgQueue {
             fn send(&self, msg: String) {
-                println!("push \"{}\" to messege queue", msg);
+                println!("push \"{}\" to message queue", msg);
                 self.msg_cache.borrow_mut().push(msg);
             }
         }
